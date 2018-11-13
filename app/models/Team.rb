@@ -2,9 +2,9 @@ class Team
   @@all = []
   attr_accessor :name, :motto
 
-  def initialize(args)
-    @name = args[:name]
-    @power = args[:motto]
+  def initialize(name, motto)
+    @name = name
+    @power = motto
     @@all << self
   end
 
