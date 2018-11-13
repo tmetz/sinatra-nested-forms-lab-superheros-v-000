@@ -4,7 +4,7 @@ class Team
 
   def initialize(name, motto)
     @name = name
-    @power = motto
+    @motto = motto
     @@all << self
   end
 
